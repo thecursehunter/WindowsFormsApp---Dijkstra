@@ -144,7 +144,7 @@ namespace Dijkstra
             path.Add(start);
             path.Reverse();
             return string.Join(" -> ", path);
-        }
+        }   
 
         private void locationTextBox_TextChanged(object sender, EventArgs e)
         {
